@@ -1,0 +1,15 @@
+.menu{
+    overflow: hidden;
+}
+
+.menu-center{
+    /* position: absolute ; */
+    z-index: 1030;
+    pointer-events: visible;
+}
+.menu-center:hover *{
+    color: white;
+}
+.icono-menu{
+    border-radius: 50%;
+}

@@ -1,0 +1,9 @@
+.selected{
+    background: rgba(128, 128, 128 , .5);
+}
+.pointer{
+    cursor: pointer;
+}
+.element-submenu{
+    padding-left: 20px;
+}

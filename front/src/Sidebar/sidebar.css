@@ -1,0 +1,112 @@
+.fixed-left{
+    position: absolute;
+    left:0;
+}
+.sidebar{
+    top: var(--size-barra);
+    z-index: 1003;
+    height: calc(100vh - var(--size-barra));
+    padding: 0;
+}
+.sidebar.expand{
+    overflow: hidden;
+    overflow-y: auto;
+    width: max-content;
+    min-width: 200px;
+}
+.sidebar-icons{
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    min-height: 100%;
+    margin: 0;
+    width: 45px;
+    background-color: var(--color-barra);
+    z-index: 1030;
+    padding: 5px 0 0 0;
+}
+.sidebar-content{
+    top:0;
+    z-index: -1000 !important;
+    position: absolute;
+    left: calc(-300% - 180px);
+    background-color: var(--color-barra);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: max-content;
+    min-height: calc(100vh - var(--size-barra));
+    transition: all .5s ease-in-out;
+    padding: 1px 0 0 0;
+}
+.sidebar-content.expand{
+    left: 45px;
+    width: 200px;
+}
+.nav-item{
+    margin: 0;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 15px; */
+    width: 45px;
+    height: 45px;
+}
+.sidebar-content .nav-item{
+    /* margin-top: 3.5em; */
+    width: max-content;
+    height: max-content;
+    align-items: flex-start;
+    min-width: 180px;
+}
+.sidebar-content .nav-link{
+    margin-top: 5px;
+}
+.nav-link{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+}
+.nav-link{
+    transition: all .5s ease-in-out;
+}
+.plus{
+    position: absolute;
+    right: 1px;
+    top: calc(50%- 15px);
+}
+.pencil{
+    position: absolute;
+    right: 0px;
+    top: calc(50%- 10px);
+}
+.plus + * , .pencil + *{
+    padding-right: 5px;
+}
+.circular-menu-center{
+    margin-top: -14px;
+    margin-left: -13px;
+    cursor: pointer;
+}
+.circular-menu-item{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-barra);
+    transition: all .5s ease-in-out;
+}
+.circular-menu-item:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.nav-item.submenu{
+    margin-top: .5em;
+}
+.submenu-spacing{
+    height: 155px;
+}

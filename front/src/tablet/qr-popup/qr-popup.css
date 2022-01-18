@@ -1,0 +1,9 @@
+.qr-pupup{
+    background-color: rgba(212, 184, 184, .8);
+    border-radius: 10%;
+    box-shadow: rgba(0,0,0,1) 0 0 15px ;
+    height: 75%;
+}
+.qr-pupup img{
+    border-radius: 5%;
+}

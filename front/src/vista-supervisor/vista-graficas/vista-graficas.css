@@ -1,0 +1,8 @@
+
+.vista-supervisor-graficas{
+    height: calc(100% - 128px);
+    overflow-y: scroll;
+}
+.bar-chart{
+    height: max-content !important;
+}

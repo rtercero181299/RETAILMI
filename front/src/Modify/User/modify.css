@@ -1,0 +1,27 @@
+.hvh-100{
+    height: calc(100vh - var( --size-barra ));
+}
+.logo{
+    width: 100%;
+    max-width: 350px;
+}
+a.form-control{
+    width: 200px
+}
+.register-form{
+    max-width: 800px;
+}
+
+h1.register{
+	text-align: center;
+}
+.selectable{
+    cursor: pointer;
+}
+.scrollable{
+    overflow: auto;
+
+}
+.adjust-100{
+    height: calc(100vh - var(--size-barra) - 200px);
+}

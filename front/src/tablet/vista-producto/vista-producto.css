@@ -1,0 +1,9 @@
+.vista-producto{
+    position: relative;
+    overflow: hidden;
+}
+.position-menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

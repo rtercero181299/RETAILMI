@@ -1,0 +1,11 @@
+.input-group-prepend *, .input-group-append *{
+    height: calc(3.5rem + 2px) !important;
+    line-height: 1.25 !important;
+}
+.input-group .form-floating{
+    width: 100% !important;
+
+}
+.input-group{
+    flex-wrap: nowrap !important;
+}

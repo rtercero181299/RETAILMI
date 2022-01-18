@@ -1,0 +1,7 @@
+.home{
+    overflow: hidden;
+}
+.popup-form{
+    position: absolute;
+    z-index: 1031;
+}

@@ -1,0 +1,40 @@
+.select-view{
+    height: min-content;
+    width: min-content;
+}
+.select-box{
+    border: 1px rgba(128,128,128, .5) solid;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    width: 300px;
+    cursor: pointer;
+}
+.option-selected{
+    width: 92%;
+}
+.arrow{
+    background-color: rgb(0, 182, 176);
+    height: 100%;
+    width: 8%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 4px;
+}
+.view-options{
+    position: absolute;
+    background-color: rgba(255,255,255,1);
+    border-radius:0 0 10px 10px;
+    border:rgba(128,128,128, .5) 1px solid;
+    border-top: none;
+    z-index: 1030;
+    width: 300px;
+    max-height: calc(100vh - var(--size-barra) - 100px);
+    overflow:auto;
+}
+.option:hover{
+    background-color: rgba(0, 182, 176, .5);
+}
+.label-select{
+    margin-bottom: 8px;
+}

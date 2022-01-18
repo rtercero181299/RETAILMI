@@ -1,0 +1,7 @@
+.btn-edit{
+    position: absolute;
+    z-index: 1030;
+    color: black;
+    bottom: 0;
+    left: 41%;
+}

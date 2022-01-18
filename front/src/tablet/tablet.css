@@ -1,0 +1,30 @@
+
+.h-complete{
+    height: calc(100vh - var(--navbar-size) - 50px);
+}
+.vista-tablet{
+    position: relative;
+}
+.tablet{
+    padding: 20px 0px 20px 20px;
+    border: ridge 1px #000000;
+    border-radius: 15px;
+    overflow: hidden;
+}   
+.screen{
+    border: ridge 1px #000000;
+}
+
+.btn-salir{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1028;
+}
+.relat{
+    position: relative  ;
+}
+.view-pop-up{
+    z-index: 1029;
+    background: rgba(0, 0, 0, .5);
+}

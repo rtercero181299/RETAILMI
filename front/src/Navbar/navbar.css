@@ -1,0 +1,11 @@
+.navbar{
+    min-height: var(--size-barra);
+    background-color: var(--color-barra);
+}
+.logo-navbar{
+    width: 180px;
+}
+.links{
+    flex-basis:unset;
+    flex-grow: unset;
+}

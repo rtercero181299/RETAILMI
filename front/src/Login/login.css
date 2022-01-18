@@ -1,0 +1,16 @@
+.hvh-100{
+    height: calc(100vh - var( --size-barra ));
+}
+.logo{
+    width: 100%;
+    max-width: 350px;
+}
+.login-form{
+    max-width: 400px;
+}
+form{
+    width: 100%;
+}
+a.form-control{
+    width: 200px
+}

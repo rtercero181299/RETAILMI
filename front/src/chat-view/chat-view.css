@@ -1,0 +1,28 @@
+.chat-view{
+    height: calc(100vh - var(--size-barra));
+    width: var(--size-chat);
+    position: relative;
+}
+.chats-list{
+    width: 100%;
+    height: 55%;
+    padding: 0;
+    margin: 0%;
+}
+.line-users{
+    max-width: 100%;
+    height: 45%;
+    overflow: scroll;
+}
+.chat-body{
+    position: absolute;
+    right: 100%;
+    top: calc(100vh - var(--size-barra) - 300px);
+}
+.max-w-100{
+    width: 100%;
+}
+.chat-left-bar{
+    width: 100%;
+    height: calc(100vh - var(--size-barra));
+}

@@ -1,0 +1,9 @@
+.vista-supervisor {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.controls{
+    padding: 10px 20px;
+}

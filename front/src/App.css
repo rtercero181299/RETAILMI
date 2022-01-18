@@ -1,0 +1,120 @@
+:root{
+  --navbar-size: 80px;
+  --form-color: rgba(236, 218, 218, 0.95);
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.form{
+  background-color: var(--form-color);
+  border-radius: 15px;
+  box-shadow: rgb(0,0,0) 5px 5px 5px;
+  padding: 2em;
+  margin-top: 10px;
+  height: 100%;
+}
+.img-preview{
+  height: 200px;
+}
+.auto-scroll{
+  overflow: auto;
+  max-width:100%;
+}
+.d-absolut{
+  position: absolute;
+}
+.p-relative{
+  position: relative;
+}
+.backwards{
+  z-index: -1;
+}
+.no-padding{
+  padding: 0 !important;
+}
+.no-border{
+  border-style: none !important;
+}
+.btn-close-form{
+  top: 5px;
+  right:30px;
+  background: none !important;
+  padding: 0;
+  margin: 0;
+  width: max-content;
+  z-index: 1030;
+  height: max-content;
+  color: unset;
+  opacity: .8;
+}
+.btn-close-form:hover{
+  opacity: 1;
+  color: unset;
+}
+.btn-ok{
+  right:70px;
+}
+.h-100P{
+  height: 100%;
+}
+:root{
+  --chat-line-size: 25%;
+  --users-online-size: 10%;
+  --size-barra: 80px;
+  --color-barra: hsla(213, 32%, 11%, 1);
+  --size-chat: 0px;
+  --size-sidebar: 50px;
+}
+.body-all{
+  margin-top: var(--size-barra);
+  margin-left: var(--size-sidebar);
+  width: calc(100% - var(--size-sidebar));
+  height: calc(100vh - var(--size-barra));
+}
+.vistas{
+  width: calc(100% - var(--size-chat));
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.no-chat{
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-barra);
+  border-top-left-radius: 0 50%;
+}
+::-webkit-scrollbar-track {
+  background: hsla(213, 32%, 11%, 0.658);
+}
+
+
+.form::-webkit-scrollbar-thumb {
+  background: rgba(236, 180, 180, 1);
+  border-top-left-radius: 0 50%;
+  opacity: 1;
+}
+
+.form::-webkit-scrollbar-track {
+  background: rgba(236, 180, 180, .5);
+  opacity: .3;
+}
+.alert-container{
+  height: max-content;
+  width: calc(100% - var(--size-chat) - 15px);
+  position: fixed;
+  top : calc(var(--size-barra) + 10px);
+  left: 45px;
+  display: flex;
+  justify-content: center;
+  z-index: 1030;
+}
+.alert-size{
+  width: 50%;
+  height: 30px;
+}
